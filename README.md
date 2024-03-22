@@ -9,7 +9,7 @@ There are four datasets:
 3) bank-full.csv with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs). 
 4) bank.csv with 10% of the examples and 17 inputs, randomly selected from 3 (older version of this dataset with less inputs). 
 
-The smallest datasets are utilized to test more computationally demanding machine learning algorithms (e.g., SVM). 
+For my analysis, I chose to use the bank-full.csv dataset.  I used the sample of this data, bank.csv, for the computational demanding support vector machine classification.
 
 ## Variable details
 
@@ -26,3 +26,6 @@ The smallest datasets are utilized to test more computationally demanding machin
 |      Loan     |   Binary     |   Has personal loan? yes or no                           | 
 |    Contact    | Categorical  |   Contact communication type (cellular, telephone)       | 
 |       Day     |   Integer    |   Day of the week of last contact                        | 
+|     pdays     |   Integer    |  Number of days since last contact (-1 means no contact) | 
+|   Previous    |   Integer    |   Number of contacts performed before this campaign      | 
+|   poutcome    | Categorical  |  Outcome of previous campaign: unknown, failure, success | 
