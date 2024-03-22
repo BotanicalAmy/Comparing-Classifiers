@@ -14,8 +14,15 @@ The smallest datasets are utilized to test more computationally demanding machin
 ## Variable details
 
  
-| Variable Name |   Data type  | Description                                              |
+| Variable Name |   Data type  |   Description                                            |
 |:--------------|:------------:|---------------------------------------------------------:|
 |      Age      |    Integer   |                                                          |
 |      Job      | Categorical  |  Occupation, ex: admin, blue-collar, retired, unemployed |    
-|    Marital    | Categorical  |  Married, single, divorced, widowed                      |  
+|    Marital    | Categorical  |  Married, single, divorced                               |  
+|   Education   | Categorical  |  Tertiary, secondary, primary, unknown                   |  
+|    Default    |   Binary     |  Credit in default? yes or no                            |  
+|    Balance    |   Integer    |  Average yearly balance                                  | 
+|    Housing    |   Binary     |   Has housing loan? yes or no                            | 
+|      Loan     |   Binary     |   Has personal loan? yes or no                           | 
+|    Contact    | Categorical  |   Contact communication type (cellular, telephone)       | 
+|       Day     |   Integer    |   Day of the week of last contact                        | 
