@@ -10,7 +10,7 @@ There are two datasets:
 I used the sample of this data for the computational demanding vector machine classification.
 
 ## Variable details
-
+Below is a detail of each variable in the dataset.  Each row represents a unique customer and serves as the unique identifier for each individual.
  
 | Variable Name |   Data type  |   Description                                            |
 |:--------------|:------------:|---------------------------------------------------------:|
@@ -27,3 +27,9 @@ I used the sample of this data for the computational demanding vector machine cl
 |     pdays     |   Integer    |  Number of days since last contact (-1 means no contact) | 
 |   Previous    |   Integer    |   Number of contacts performed before this campaign      | 
 |   poutcome    | Categorical  |  Outcome of previous campaign: unknown, failure, success | 
+
+
+## Preparing the data
+All of the categorical data was converted into numeric values using the Label encoder.  Upon analyzing the "poutcome" data values, I noticed that there was repetition within the outcome values.  I converted this column to boolean, making success = 1, and non-success (other, unknown, failure) = 0.  Below you can see the comparison of the conversion of these values as they relate to the loan success.
+
+![Marketing campaign to boolean](Images/MarketingBoolean.jpeg) 
