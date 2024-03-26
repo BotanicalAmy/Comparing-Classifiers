@@ -32,4 +32,4 @@ Below is a detail of each variable in the dataset.  Each row represents a unique
 ## Preparing the data
 All of the categorical data was converted into numeric values using the Label encoder.  Upon analyzing the "poutcome" data values, I noticed that there was repetition within the outcome values.  I converted this column to boolean, making success = 1, and non-success (other, unknown, failure) = 0.  Below you can see the comparison of the conversion of these values as they relate to the loan success.
 
-![Marketing campaign to boolean](.Images/MarketingBoolean.jpg)
+![Marketing campaign to boolean](./Images/MarketingBoolean.jpg)
