@@ -34,3 +34,28 @@ All of the categorical data was converted into numeric values using the Label en
 
 
 ![Marketing campaign to boolean](./Images/MarketingtoBoolean.jpg)
+
+## Selecting the best model
+
+THe KNN classifier (13 neighbors and Euclidian metric) was 89.2% accurate.
+The logistic regression classifier was 88% accurate.
+The decision tree classifier was 88% accurate.
+The support vector classifier (using the linear kernel) was 89.1% accurate.
+
+The KNN classifier performed the best, followed closely by the support vector classifier.  The logistic regression and decision tree classifiers performed the worst, although by a small margin.
+
+Going forward, I recommend using the KNN classifier to determine which customers will accept the terms of the deposit.
+
+## Visualizing the Classifiers
+
+### KNN Classifier
+![KNN Classifier](./Images/KNN_classifier.png)
+
+### Logistic Regression Classifier
+![Logistic Regression Classifier](./Images/LogisticRegression_Classifier.png)
+
+### Decision Tree Classifier
+![Decision Tree Classifier](./Images/DecisionTree_classifier.png)
+
+### Support Vector Classifier
+This decision boundary refused to form a visual plot.  Suggestions welcome.
