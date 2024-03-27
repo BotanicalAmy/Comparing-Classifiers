@@ -1,5 +1,6 @@
 # Comparing Classifiers
  Comparing the performance of k-nearest neighbors, logistic regression, decision trees, and support vector machines
+ *This is a homework submission for a machine learning course*
 
 The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required. The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
 
